@@ -1,0 +1,20 @@
+Databáze
+=========
+***********************************************
+
+**relační dtb** 1970 - Codd
+
+**dtb** = strukturovaná data, umístěná v tabulkách
+
+**relační databáze** - umožňuje pracovat současně s daty z více tabulek
+
+**tabulka** - entita v určitém dtb prostředí
+
+**atribut** - vlastnost stejného druhu
+
+**RDBMS** 
+        - software, který řídí data směrem k organizaci a strukturuje je
+		- podporuje datové modely
+		- spravuje databázove struktury (tabulky, vazby atd.)
+		- spravuje transakce
+		- strukturalizuje požadavky aplikací
