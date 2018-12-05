@@ -13,8 +13,8 @@ Databáze
 **atribut** - vlastnost stejného druhu
 
 **RDBMS** 
-        - software, který řídí data směrem k organizaci a strukturuje je
-		- podporuje datové modely
-		- spravuje databázove struktury (tabulky, vazby atd.)
-		- spravuje transakce
-		- strukturalizuje požadavky aplikací
+- software, který řídí data směrem k organizaci a strukturuje je
+- podporuje datové modely
+- spravuje databázove struktury (tabulky, vazby atd.)
+- spravuje transakce
+- strukturalizuje požadavky aplikací
