@@ -28,3 +28,11 @@ Databáze
 - bez mezer
 - podtržítka nebo velká písmena (_camelCase, PascalCase nebo snake_case_)
 - ne klíčová slova
+
+**primární klíč** - množina atributů jednoznačně definující každý záznam tabulky
+- dělí se na:
+  - přirozený
+  - umělý
+- také na:
+  - jednoduchý
+  - složený
