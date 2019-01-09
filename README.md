@@ -55,8 +55,37 @@ Databázové služby i logická komunikace se implementují jako součást klien
 _Microsoft access_
 
 >**Klient/Server**
-Základní myšlenkou architektury je oddělení databázových služeb od klienta
+_Základní myšlenkou architektury je oddělení databázových služeb od klienta_
 Komunikace mezi klientem a databází je flexibilní a otevřená
+Databázové služby jsou prováděny na výkoném PC což umožnujě:
+- centralizovanou správu systému
+- zavedení bezpečnostních opatření
+- přístup ke sdílení prostředků
 
+>Server představuje databázi s jejími službami jako například:
+- vyhledávání
+- spojování
+- načítání
+- aktualizace
+- analýza dat
+Databáze se zkládá z fyzického prostoru pro uložení dat a z Databázových služeb (SŘDB)
+_Veškerý přístup k datům probíhá prostřednictvím serveru, fyzicky se k žádným datům nikdo nedostane_
 
- 
+>Klient program nebo automatizovaný proces, který interaktivně se serverem
+Do kategorie klient spadá veškerý software, který spolupracuje se serverem
+Z databáze může data získávát i zapisovat
+Přímý k datům nikdy nemá
+Vždy komunikuje serverem a ten teprve s daty
+
+Příklady klientů:
+- utility pro správu systému
+- sytém pro adhoc dotazy a sestavy
+- uživatelské aplikace thin and thicc
+- webové aplikace
+
+Výhody K/S (vzhledem k předchozím architektirám):
+- modulární charakter aplikací
+- intuitivní vývoj a provoz klientů v různem GUI
+- zjednodušení údržby aplikace a zvýšení bezpečnosti Informačního Systému
+
+architektura K/S má několik podtipů, z nichž mezní hodnoty se nazývají _inteligentní server_ či _inteligentní klient_ 
