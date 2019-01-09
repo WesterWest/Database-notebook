@@ -48,5 +48,15 @@ Databáze
 
 > **id** - unikátní celé číslo
 
+>**Monolitická architektura**
+Vývojové prostředí i klientská aplikace jsou umístěny na lokálním počítači
+Aplikace přistupuje přímo k souborům na lokálním pevném disku nebo na síťovém souborovém serveru.
+Databázové služby i logická komunikace se implementují jako součást klientské aplikace
+_Microsoft access_
+
+>**Klient/Server**
+Základní myšlenkou architektury je oddělení databázových služeb od klienta
+Komunikace mezi klientem a databází je flexibilní a otevřená
+
 
  
