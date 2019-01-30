@@ -89,3 +89,27 @@ Výhody K/S (vzhledem k předchozím architektirám):
 - zjednodušení údržby aplikace a zvýšení bezpečnosti Informačního Systému
 
 architektura K/S má několik podtipů, z nichž mezní hodnoty se nazývají _inteligentní server_ či _inteligentní klient_ 
+
+>**Integrita dat** = pravidla pro zajištění správnosti a konzistence upravených dat
+Základní rozdělení pro integritu na sloupci je _null_ a _notnull_
+
+Proč integrita? - Snaha odchytit chybu už na vstupu
+
+>**Typy integrity** :
+- deklarační- trvale přítomnaá
+- procedurální - pouze pro nějakou proceduru
+
+Datová integrita:
+Doménová(atributy)
+Entitová. Definují pravidla pro údržbu integrity jednotlivých relací.
+Referenční integrita zajišťují zachování potřebných vztahů mezi relacemi
+pravidlo, jež definuje platné hodnoty atribudů
+
+základní rozdělení:
+null
+not null
+------------------------------------------------------
+Doménová, standardní testy
+Vstupní hodnota respektuje dolní/horní mez
+vstupní hodnota odpovídá tzv. masce
+možnost kontroly podle číselníku
