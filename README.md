@@ -99,17 +99,16 @@ Proč integrita? - Snaha odchytit chybu už na vstupu
 - deklarační- trvale přítomnaá
 - procedurální - pouze pro nějakou proceduru
 
-Datová integrita:
-Doménová(atributy)
-Entitová. Definují pravidla pro údržbu integrity jednotlivých relací.
-Referenční integrita zajišťují zachování potřebných vztahů mezi relacemi
-pravidlo, jež definuje platné hodnoty atribudů
+>**Datová integrita**:
+- Doménová(atributy)
+- Entitová. Definují pravidla pro údržbu integrity jednotlivých relací.
+- Referenční integrita zajišťuje zachování potřebných vztahů mezi relacemi; pravidlo, jež definuje platné hodnoty atribudů
 
-základní rozdělení:
-null
-not null
+> základní rozdělení:
+- null
+- not null
 ------------------------------------------------------
-Doménová, standardní testy
-Vstupní hodnota respektuje dolní/horní mez
-vstupní hodnota odpovídá tzv. masce
-možnost kontroly podle číselníku
+- doménová, standardní testy
+- vstupní hodnota respektuje dolní/horní mez
+- vstupní hodnota odpovídá tzv. masce
+- možnost kontroly podle číselníku
