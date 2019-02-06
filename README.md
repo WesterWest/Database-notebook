@@ -48,13 +48,13 @@ Databáze
 
 > **id** - unikátní celé číslo
 
->**Monolitická architektura**
+> **Monolitická architektura**
 Vývojové prostředí i klientská aplikace jsou umístěny na lokálním počítači
 Aplikace přistupuje přímo k souborům na lokálním pevném disku nebo na síťovém souborovém serveru.
 Databázové služby i logická komunikace se implementují jako součást klientské aplikace
 _Microsoft access_
 
->**Klient/Server**
+> **Klient/Server**
 _Základní myšlenkou architektury je oddělení databázových služeb od klienta_
 Komunikace mezi klientem a databází je flexibilní a otevřená
 Databázové služby jsou prováděny na výkoném PC což umožnujě:
@@ -62,7 +62,7 @@ Databázové služby jsou prováděny na výkoném PC což umožnujě:
 - zavedení bezpečnostních opatření
 - přístup ke sdílení prostředků
 
->Server představuje databázi s jejími službami jako například:
+> Server představuje databázi s jejími službami jako například:
 - vyhledávání
 - spojování
 - načítání
@@ -71,7 +71,7 @@ Databázové služby jsou prováděny na výkoném PC což umožnujě:
 Databáze se zkládá z fyzického prostoru pro uložení dat a z Databázových služeb (SŘDB)
 _Veškerý přístup k datům probíhá prostřednictvím serveru, fyzicky se k žádným datům nikdo nedostane_
 
->Klient program nebo automatizovaný proces, který interaktivně se serverem
+> Klient program nebo automatizovaný proces, který interaktivně se serverem
 Do kategorie klient spadá veškerý software, který spolupracuje se serverem
 Z databáze může data získávát i zapisovat
 Přímý k datům nikdy nemá
@@ -90,19 +90,21 @@ Výhody K/S (vzhledem k předchozím architektirám):
 
 architektura K/S má několik podtipů, z nichž mezní hodnoty se nazývají _inteligentní server_ či _inteligentní klient_ 
 
->**Integrita dat** = pravidla pro zajištění správnosti a konzistence upravených dat
+> **Integrita** = splnění všech integritních omezení, které jsou na danou databázi požadovány
+
+> **Integrita dat** = pravidla pro zajištění správnosti a konzistence upravených dat
 Základní rozdělení pro integritu na sloupci je _null_ a _notnull_
 
 Proč integrita? - Snaha odchytit chybu už na vstupu
 
->**Typy integrity** :
+> **Typy integrity** :
 - deklarační- trvale přítomnaá
 - procedurální - pouze pro nějakou proceduru
 
->**Datová integrita**:
-- Doménová(atributy)
-- Entitová. Definují pravidla pro údržbu integrity jednotlivých relací.
-- Referenční integrita zajišťuje zachování potřebných vztahů mezi relacemi; pravidlo, jež definuje platné hodnoty atribudů
+> **Datová integrita**:
+- Doménová (atributy)
+- Entitová = definuje pravidla pro údržbu integrity jednotlivých relací.
+- Referenční integrita = zajišťuje zachování potřebných vztahů mezi relacemi; pravidlo, jež definuje platné hodnoty atribudů
 
 > základní rozdělení:
 - null
