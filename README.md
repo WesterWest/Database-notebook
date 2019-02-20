@@ -6,9 +6,9 @@ Databáze
 ***********************************************
 
 > **databáze** = strukturovaná data, umístěná v tabulkách
-  
-> **relační databáze** - umožňuje pracovat současně s daty z více tabulek  
-  
+
+> **relační databáze** - umožňuje pracovat současně s daty z více tabulek
+
 > **tabulka** - entita v určitém dtb prostředí
 - spojujeme vazbami s určitou kardinalitou (mohutností)
 
@@ -17,7 +17,7 @@ Databáze
 > **vazba** - rozlišujeme parcialitu (povinnost ve vztahu)
 - >**vazba 1:N** - jeden záznam v jedné tabulce odpovídá N záznamů v druhé tabulce
 
-**RDBMS** 
+**RDBMS**
 - software, který řídí data směrem k organizaci a strukturuje je
 - podporuje datové modely
 - spravuje databázove struktury (tabulky, vazby atd.)
@@ -41,7 +41,7 @@ Databáze
   - jednoduchý
   - složený
 
-  
+
 > **kandidátní klíč** - množina atributů, které by _mohly_ být primárním klíčem, ale není vhodná
 
 > **foreign key** - zprostředkovává spojení na primární klíč druhé tabulky
@@ -121,7 +121,16 @@ fyzického uspořádání tabulek a vazeb v reálné databázi
 
 **Proč normalizovat?**
 - odstranění redundatních (opakujících se) dat
+------------------------------------------------------
+> **5(6) normálních forem:**
+1. NF:
+- každý atribut obsahuje jen atomické hodnoty, dále již nedělitelné
 
-> **5(6) normáilních forem:**
-1. každý atribut obsahuje jen atomické hodnoty, dále již nedělitelné
-2. je v první formě a zároveň je **plně závislý** na celém primárním klíči
+2. NF:
+- je v první formě
+- každý atribut **plně závislý** na celém primárním klíči
+
+3. NF:
+- je v druhé formě
+- žádný z jejích atributů není tranzitivně závislý na klíči
+- relace je ve třetinové formě pokud je ve druhé a všechny atributy jsou navzájem nezávislé
