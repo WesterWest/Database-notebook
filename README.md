@@ -88,7 +88,7 @@ Výhody K/S (vzhledem k předchozím architektirám):
 - intuitivní vývoj a provoz klientů v různem GUI
 - zjednodušení údržby aplikace a zvýšení bezpečnosti Informačního Systému
 
-architektura K/S má několik podtipů, z nichž mezní hodnoty se nazývají _inteligentní server_ či _inteligentní klient_ 
+architektura K/S má několik podtipů, z nichž mezní hodnoty se nazývají _inteligentní server_ či _inteligentní klient_
 
 > **Integrita** = splnění všech integritních omezení, které jsou na danou databázi požadovány
 
@@ -114,3 +114,14 @@ Proč integrita? - Snaha odchytit chybu už na vstupu
 - vstupní hodnota respektuje dolní/horní mez
 - vstupní hodnota odpovídá tzv. masce
 - možnost kontroly podle číselníku
+
+> **Normalizace dat** = pravidla jak postupovat při transformaci entit a relací ER modelů na strukturu
+fyzického uspořádání tabulek a vazeb v reálné databázi
+(= proces rozhodování jaký sloupec umístíme v jaké tabulce)
+
+**Proč normalizovat?**
+- odstranění redundatních (opakujících se) dat
+
+> **5(6) normáilních forem:**
+1. každý atribut obsahuje jen atomické hodnoty, dále již nedělitelné
+2. je v první formě a zároveň je **plně závislý** na celém primárním klíči
