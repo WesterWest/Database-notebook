@@ -134,3 +134,15 @@ fyzického uspořádání tabulek a vazeb v reálné databázi
 - je v druhé formě
 - žádný z jejích atributů není tranzitivně závislý na klíči
 - relace je ve třetinové formě pokud je ve druhé a všechny atributy jsou navzájem nezávislé
+
+# SQL
+
+## Agregační funkce
+- mohou mít například funkce min() max() číslo a datum
+- včetně group by
+příklad asi:
+`select count(id_os) from osoby;
+select sum(plat_max) as vyplata_celk fro  osoby;
+select max(plat) as nejvyssi as osoby;
+min()
+aug()`
